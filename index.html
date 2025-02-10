@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DRIVI</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3V0uYBATWV_oCwq40pR5hK_LPT0AGZKs&libraries=places"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>DRIVI</h1>
+    <div class="search-container">
+      <input type="text" id="searchQuery" placeholder="Enter a business name or type (e.g., Starbucks)">
+      <button id="searchButton">Search</button>
+    </div>
+    <div id="results"></div>
+    <div id="map"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
