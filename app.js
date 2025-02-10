@@ -1,4 +1,4 @@
-const apiKey = "AIzaSyD3V0uYBATWV_oCwq40pR5hK_LPT0AGZKs"; // Replace with your API key
+const apiKey = "YOUR API KEY"; // Replace with your API key
 const searchButton = document.getElementById("searchButton");
 const searchQuery = document.getElementById("searchQuery");
 const resultsDiv = document.getElementById("results");
